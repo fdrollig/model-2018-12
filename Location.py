@@ -13,7 +13,7 @@ class Location:
         self.objects = []
         self.name = name
         self.accounts = []
-        self.inventory = Inventory.Inventory()
+        self.inventory = Inventory()
     def __str__(self):
         return self.name
     def __lt__(self, other):
